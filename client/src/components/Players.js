@@ -20,14 +20,14 @@ export default function Players(props) {
     console.log({props});
     return (
       <>
-        <h1
+        <h2
           onClick={setDarkMode}
-        >Players</h1>
+        >Players</h2>
         <div className="allPlayers">
           {playersArray.map(player => (
             // console.log(player)
             <div key={player.id} className="player">
-              <p>{player.name}</p>
+              <h4>{player.name}</h4>
               <p>{player.country}</p>
               <p>{player.searches}</p>
             </div>

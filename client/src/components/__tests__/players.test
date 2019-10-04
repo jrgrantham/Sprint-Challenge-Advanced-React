@@ -1,0 +1,41 @@
+// import React from 'react';
+// import * as rtl from '@testing-library/react';
+// import Players from '../Players';
+
+// jest.mock('axios', () => {
+//   return {
+//     get: () => {
+//       return Promise.resolve({
+//         data: [
+//           { name: 'James', id: '1', country: 'Scotland', searches: 5 },
+//         ],
+//       });
+//     },
+//   };
+// });
+
+// let tools;
+
+// beforeEach(() => {
+//   rtl.cleanup();
+//   // const playersArray = [
+//   //   {
+//   //     country: "United States",
+//   //     id: 100,
+//   //     name: "Tierna Davidson",
+//   //     searches: 1
+//   //   }
+//   // ]
+//   tools = rtl.render(
+//     <Players />);
+// });
+
+// describe('Players component', () => {
+//   it('runs', () => {
+//     tools.debug();
+//   });
+
+//   // it('maps through the array', () => {
+
+//   // })
+// })

@@ -50,8 +50,13 @@ h3 {
   margin-bottom: 0.6rem;
 }
 
+h4 {
+  text-align: center;
+}
+
 p {
   font-size: 0.7rem;
+  text-align: center;
 }
 
 .dark-mode {

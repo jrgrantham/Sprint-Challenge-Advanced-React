@@ -24,6 +24,7 @@ export default class App extends React.Component {
   render() {
     return (
       <>
+        <h1>Womens World Cup</h1>
         <Players playersArray={this.state.playersArray}/>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
