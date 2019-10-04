@@ -7,7 +7,7 @@ import Players from './components/Players';
 
 const sprintApi = "http://localhost:5000/api/players";
 
-export default class Github extends React.Component {
+export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
