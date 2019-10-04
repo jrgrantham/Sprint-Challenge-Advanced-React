@@ -6,11 +6,13 @@ export default class Players extends React.Component {
     return (
       <>
         <h1>Players</h1>
-        <div>
+        <div className='allPlayers'>
           {this.props.playersArray.map(player => (
             // console.log(player)
-            <div key={player.id}>
+            <div key={player.id} className='player'>
               <p>{player.name}</p>
+              <p>{player.country}</p>
+              <p>{player.searches}</p>
             </div>
           ))}
         </div>
