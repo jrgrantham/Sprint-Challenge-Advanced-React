@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import axios from "axios";
 
-import Players from "./components/Players";
+import Players from './components/Players';
 
 const sprintApi = "http://localhost:5000/api/players";
 
