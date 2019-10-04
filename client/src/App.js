@@ -18,7 +18,6 @@ export default class Github extends React.Component {
   componentDidMount() {
     axios.get(sprintApi).then(response => {
       this.setState({ playersArray: response.data });
-      // console.log(response.data);
     });
   }
 
